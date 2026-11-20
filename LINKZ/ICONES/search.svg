@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" fill="none">
+<title>Hand-drawn search</title>
+<g stroke="#111111" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M111 62 C95 60 80 67 70 79 C59 92 56 109 60 125 C64 142 77 154 93 159 C110 165 128 161 141 151 C155 141 163 125 162 109 C162 93 154 78 141 70 C134 65 126 63 119 63"/>
+<path d="M147 147 C160 158 174 171 187 183 C191 187 194 191 190 195 L185 200 C181 204 177 201 173 197 C162 184 150 171 138 158"/>
+<path d="M96 77 C83 81 75 92 74 104"/>
+<path d="M74 113 C74 117 75 120 77 123"/>
+<path d="M172 70 C175 65 177 60 178 56"/>
+<path d="M182 81 C188 77 193 75 198 74"/>
+<path d="M186 94 C192 93 198 94 203 94"/>
+</g></svg>

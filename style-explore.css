@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Inter:opsz,wght@14..32,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.header,
+.navigation{
+    background-color: #540817;
+}
+
+body {
+    background-color: #540817;
+    max-width: 393px;
+    margin: 0 auto;
+    min-height: 100svh;
+    padding-top: 110px;
+    padding-bottom: 89px;
+    color: #FFFDEB;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 24px;
+}
+
+.topsection {
+    display: flex;
+    padding: 0 12px;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+}
+
+.search {
+    display: flex;
+    height: 42px;
+    align-items: flex-start;
+    margin-top: 50px;
+    align-self: stretch;
+    border-radius: 8px;
+    background: #FFFDEB;
+}
+
+.search img{
+    flex-shrink: 0;
+    width: 48px;
+}
+
+.topsection h1 {
+    color: #FFFDEB;
+}
+
+.cardevents {
+    border-radius: 8px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.52) 0%, rgba(0, 0, 0, 0.52) 100%), url("./LINKZ/IMAGES/EVENT.jpg") lightgray 50% / cover no-repeat;
+    display: flex;
+    height: 180px;
+    padding: 127px 114px 6px 14px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+}
+
+.accountsection {
+    display: flex;
+    padding: 0 0 12px 12px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.accounts {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    align-self: stretch;
+    overflow-x: auto;
+}
+
+.profiles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    flex-shrink: 0;
+}
+
+.profiles img {
+    border-radius: 55px;
+    object-fit: cover;
+    flex-shrink: 0;
+    width: 55px;
+    height: 55px;
+}
+
+.hobbiessection {
+    display: flex;
+    padding: 0 12px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.hobbiesmore {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 6px;
+    align-self: stretch;
+}
+
+.hobbiescards {
+    display: grid;
+    height: 208px;
+    row-gap: 13px;
+    column-gap: 14px;
+    align-self: stretch;
+    grid-template-rows: repeat(2,minmax(0,1fr));
+    grid-template-columns: repeat(2,minmax(0,1fr));
+}
+
+.readingcard {
+    display: flex;
+    padding: 179px 86px 6px 8px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    grid-row: 1 / span 2;
+    grid-column: 1 / span 1;
+    justify-self: stretch;
+    border-radius: 8px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0.35) 100%), url("./LINKZ/IMAGES/READING.jpg") lightgray 50% / cover no-repeat;
+}
+
+.crochetcard {
+    display: flex;
+    padding: 68px 98px 1px 9px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    grid-row: 1 / span 1;
+    grid-column: 2 / span 1;
+    justify-self: stretch;
+    border-radius: 8px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0.35) 100%), url("./LINKZ/IMAGES/CROCHET.jpg") lightgray 50% / cover no-repeat;
+}
+
+.cookingcard {
+    display: flex;
+    padding: 74px 102px 3px 9px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    grid-row: 2 / span 1;
+    grid-column: 2 / span 1;
+    justify-self: stretch;
+    border-radius: 8px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0.35) 100%), url("./LINKZ/IMAGES/COOKING.jpg") lightgray 50% / cover no-repeat;
+}
+
+.hobbiessection a {
+    color: #FFF;
+    text-align: right;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+}
+
+.todosection {
+    display: flex;
+    padding-left: 12px;
+    padding-bottom: 12px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.todocards {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+    overflow-x: auto;
+}
+
+.todocards h2 {
+    color: #FFFDEB;
+}
+
+.coffecard {
+    display: flex;
+    width: 275px;
+    height: 179px;
+    padding: 13px 11px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    border-radius: 8px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.49) 0%, rgba(0, 0, 0, 0.49) 100%), url("./LINKZ/IMAGES/COFFEE.jpg") lightgray 50% / cover no-repeat;
+    flex-shrink: 0;
+}
+
+.onlinecard {
+    display: flex;
+    width: 275px;
+    height: 179px;
+    padding: 13px 11px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    border-radius: 8px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.49) 0%, rgba(0, 0, 0, 0.49) 100%), url("./LINKZ/IMAGES/ONLINE.jpg") lightgray 50% / cover no-repeat;
+    flex-shrink: 0;
+}

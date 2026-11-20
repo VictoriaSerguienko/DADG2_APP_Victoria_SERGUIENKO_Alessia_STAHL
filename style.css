@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Inter:opsz,wght@14..32,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header,
+.tabbar,
+.navigation {
+    position: fixed;
+    left: 0;
+    right: 0;
+    max-width: 393px;
+    margin: auto;
+    z-index: 1;
+}
+
+.header{
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 112px;
+    padding: 0px 0px 12px;
+}
+
+.header img {
+    height: 40px;
+}
+
+body {
+    color: #FFFDEB;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.navigation{
+   padding-left: 16px;
+   padding-right: 16px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 48px;
+   padding-bottom: 4px;
+}
+
+.navigation img {
+    width: 40px;
+    height: 40px;
+}
+
+.options{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 24px;
+}
+
+a{
+    text-decoration: none;
+    color: #FFFDEB;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+
+h2{
+    color: #B9CDF1;
+    text-align: center;
+    font-family: "boldonse", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+h1{
+    color: #B9CDF1;
+    font-family: "Boldonse", sans-serif;
+    font-size: 29px;
+    font-weight: 400;
+}
+
+.tabbar {
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    height: 89px;
+    padding: 8px 24px;
+    background: #FFFDEB;
+}
+
+.tabbarbutton {
+    display: flex;
+    width: 54px;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.tabbarbutton p {
+    color: black;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.tabbarbutton img {
+    width: 58px;
+    height: 58px;
+    object-fit: contain;
+}
+
+
+.cardinfo > p {
+    opacity: 0.5;
+}
+

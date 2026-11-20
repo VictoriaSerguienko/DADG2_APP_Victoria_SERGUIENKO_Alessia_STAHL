@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" fill="none">
+<title>Hand-drawn refresh</title>
+<g stroke="#111111" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M62 116 C66 95 79 78 97 69 C116 59 139 59 158 68 C174 75 185 86 192 101"/>
+<path d="M193 73 C194 82 193 94 194 104 C194 108 192 109 189 108 C178 106 168 104 158 103"/>
+<path d="M194 138 C190 158 177 176 159 186 C141 196 117 197 98 188 C82 181 70 169 63 155"/>
+<path d="M62 183 C61 174 63 163 61 152 C61 149 63 147 67 148 C77 150 88 153 98 153"/>
+<path d="M56 78 C52 74 49 71 46 67"/>
+<path d="M48 90 C42 88 38 87 33 86"/>
+<path d="M199 179 C203 182 207 186 210 190"/>
+<path d="M207 166 C212 167 217 169 222 171"/>
+</g></svg>
